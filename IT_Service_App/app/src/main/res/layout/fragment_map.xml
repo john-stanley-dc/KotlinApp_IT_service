@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="Contacts: "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="330dp"
+        android:textSize="28dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/Email"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="370dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/PhoneNumber"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="410dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18dp"
+        />
+</RelativeLayout>

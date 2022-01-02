@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ServiceFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/win_install"/>
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="280dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="250dp"
+        android:fontFamily="@font/poppins"
+        android:text="Windows installation"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/clean_pc"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="160dp"
+        android:backgroundTint="@color/theme_color"
+        android:checked="false"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/poppins"
+        android:text="Cleaning PC"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/install_soft"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="250dp"
+        />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Installing software"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/install_antivirus"
+        />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="280dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="250dp"
+        android:fontFamily="@font/poppins"
+        android:text="Installing antivirus "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/install_drivers"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="200dp"
+        />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="160dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/poppins"
+        android:text="Installing drivers"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/selection_pc" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="PC components"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="250dp"
+        android:src="@drawable/buying_pc" />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="280dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="250dp"
+        android:fontFamily="@font/poppins"
+        android:text="Buying a PC"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/pc_repair"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginTop="380dp"/>
+
+    <Button
+        android:id="@+id/button_8"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="160dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/poppins"
+        android:text="PC repair "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/overclock_pc"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="250dp"/>
+
+    <Button
+        android:id="@+id/button_9"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/theme_color"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="Add"
+        android:textSize="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Overclocking"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+
+
+
+</RelativeLayout>
